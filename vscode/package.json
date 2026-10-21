@@ -1,0 +1,35 @@
+{
+  "name": "ama",
+  "displayName": "AMA (AI Model Autoroute)",
+  "description": "On/off switch and live view for the ai-model-autoroute Claude Code mod: shows the state and the last routing decisions. Talks to the mod only through two local JSON files.",
+  "version": "0.2.0",
+  "publisher": "kharimmchatta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KharimMchatta/ai-model-autoroute"
+  },
+  "private": true,
+  "license": "MIT",
+  "engines": { "vscode": "^1.94.0" },
+  "categories": ["Other"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "files": [
+    "extension.js",
+    "lib/*.js",
+    "media/panel.html",
+    "media/panel.css",
+    "media/panel.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "contributes": {
+    "commands": [
+      { "command": "ama.open", "title": "Open AI Model Autoroute", "category": "AMA" },
+      { "command": "ama.refresh", "title": "Refresh now", "category": "AMA" }
+    ]
+  },
+  "scripts": {
+    "test": "node test/run-tests.js"
+  }
+}

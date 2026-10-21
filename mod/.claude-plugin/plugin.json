@@ -1,0 +1,6 @@
+{
+  "name": "ai-model-autoroute",
+  "version": "0.2.0",
+  "description": "AMA, AI Model Autoroute: routes prompts between Opus 5.5 and Sonnet 5.5 by task type, then resends them",
+  "author": { "name": "Kharim Mchatta" }
+}

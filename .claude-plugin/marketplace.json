@@ -1,0 +1,12 @@
+{
+  "name": "ai-model-autoroute",
+  "description": "AMA, AI Model Autoroute: a Claude Code mod that routes a fresh window's first prompt to Opus 5.5 or Sonnet 5.5",
+  "owner": { "name": "Kharim Mchatta" },
+  "plugins": [
+    {
+      "name": "ai-model-autoroute",
+      "source": "./mod",
+      "description": "Routes a fresh window's first prompt between Opus 5.5 and Sonnet 5.5 by task type, then resends it"
+    }
+  ]
+}
